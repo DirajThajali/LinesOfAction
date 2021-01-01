@@ -1,0 +1,58 @@
+#*java -ea loa.Main
+# Can my AI Win?
+seed 2983434483
+manual White
+manual black
+g1-a1
+a7-b6
+a1-b2
+b6-b2
+b8-b5
+h6-f8
+g8-g7
+a6-b6
+e8-e6
+h7-g8
+b5-d7
+h3-h7
+c1-h1
+a5-a1
+f1-e2
+a1-a5
+g7-e5
+h7-f7
+b1-f1
+h2-h6
+h1-g2
+b6-e6
+e2-e6
+h4-h7
+d1-f3
+a2-e6
+e1-e4
+h5-e5
+d7-d5
+a5-d5
+c8-e6
+d5-f5
+f1-e2
+f7-f3
+g2-d2
+f8-d6
+e2-d3
+f3-g4
+d2-d6
+f5-d5
+d3-f3
+b2-d4
+d6-f8
+d4-f6
+d8-f6
+h7-f5
+f3-d3
+g4-f3
+d3-d5
+a3-a5
+auto Black
+auto White
+#*move/win+
