@@ -41,11 +41,11 @@ Java Class | Description
 `GUIPlayer.java` | A type of manual Player that takes move from the GUI.
 
  ## How To Play
-#### Notation
+### Notation
 * Columns are denoted with letters a-h from left
 * Rows are denoted with numbers 1-8 from bottom
 
-#### Rules
+### Rules
  * You can move one checker in one direction at a time, vertically, horizontally, or diagonally. 
  * The total number of checkers (including your opponents) in that column (aka file), row (aka rank), or diagonal path determines how many spaces that checker must move, if moved. 
  * Your checkers can jump over your own checkers, but cannot land on your checkers. 
@@ -56,7 +56,7 @@ Java Class | Description
     * In the event that one move results in a connection for both players, the game traditionally results in a draw. 
     * Additionally, when a player has only one remaining checker on the board, that player wins, as one checker is considered a continuous line.
     
-#### Example
+### Example
 ![Fig1](./img/fig1.png)
 * (a) Initial Position
 * (b) Possible moves for the black piece at f3. 
@@ -68,7 +68,7 @@ Java Class | Description
 * Position (a) is a win for Black. 
 * In position (b), White can move as shown, capturing an isolated black piece and giving both players contiguous pieces. Since it is White's move, however, the result is counted as a winning position for White.
 
- #### Controlling Play
+ ### Controlling Play
  * Master the middle, control the game. 
  * The best offense is a good defense. 
  * Stay ahead. Few > Many. Finding the Game Winning Spot.
@@ -80,12 +80,12 @@ To run the application and start playing this board game, you will first need to
 $ git clone git@github.com:DirajThajali/LinesOfAction.git
 ```
 Now that you have all the required tools to run the board game, you have two options: play it on your standard terminal or use Graphical User Interface (GUI). 
-#### Running on Terminal
+### Running on Terminal
 ```bash
 $ javac loa/*.java      # compile all java classes
 $ java -ea loa.Main     # this will run the program on your terminal
 ```
-#### Running it using GUI  
+### Running it using GUI  
 ```bash
 $ javac loa/*.java      # compile all java classes
 $ java -ea loa.Main --display       # this will run the program using GUI
